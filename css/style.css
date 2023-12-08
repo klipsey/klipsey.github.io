@@ -259,6 +259,15 @@ a:link{
     border-width: 1px;
     display: inline-block;   
 }
+.hobby_img_gray{
+    margin-top:20px;
+    margin-right:20px;
+    width:395px;
+    max-height:380px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;   
+}
 .hobby_vid{
     margin-top:20px;
     margin-right:20px;
@@ -297,7 +306,16 @@ a:link{
     .hobby_img_horizontal{
         margin-top:20px;
         margin-right:20px;
-        width:478px;
+        width:484px;
+        max-height:304px;
+        border-style: solid;
+        border-width: 1px;
+        display: inline-block;   
+    }
+    .hobby_img_gray{
+        margin-top:20px;
+        margin-right:20px;
+        width:317px;
         max-height:304px;
         border-style: solid;
         border-width: 1px;
