@@ -241,6 +241,20 @@ a:link{
 .proj_img:hover{
     box-shadow: 0 0 5px 1px white;
 }
+
+.seam_img {
+    margin-top: 20px;
+    width: 500px;
+    height: 540x;
+    border: #000;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+    .seam_img:hover {
+        box-shadow: 0 0 5px 1px white;
+    }
+
 .hobby_img{
     margin-top:20px;
     margin-right:20px;
