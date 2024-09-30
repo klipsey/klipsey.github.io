@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
     background:#000;
-    font-family:Prompt,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+    font-family: "DM Sans", sans-serif;
     -webkit-text-size-adjust:none;
     -webkit-font-smoothing:antialiased;
     font-size:13px;
@@ -186,6 +186,7 @@ a:link{
     position:relative;
 }
 .section_title{
+    font-family: "DM Sans", sans-serif;
     position:relative;
     padding-bottom:2px;
     font-size:35px;
@@ -224,8 +225,9 @@ a:link{
     background:#fff;
 }
 .about_txt{
-    font-size:20px;
-    max-width:540px;
+    font-family: "DM Sans", sans-serif;
+    font-size:40px;
+    max-width:740px;
     background-color: #000000ce;
     box-shadow: 0px 0px 2px 2px black;
 }

@@ -1,11 +1,11 @@
 @charset "UTF-8";
 body{
-    background:#000;
-    font-family:Prompt,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+    background:#000000;
+    font-family: "DM Sans", sans-serif;
     -webkit-text-size-adjust:none;
     -webkit-font-smoothing:antialiased;
     font-size:13px;
-    line-height:1.6;
+    line-height:1.35;
     margin:0;
     position:relative;
     color:#fff;
@@ -45,7 +45,7 @@ a:link{
     left:0;
     top:0;
     bottom:0;
-    background:#fff;
+    background:#f7f7f7;
     z-index:5;
 }
 .head_menu_list{
@@ -159,7 +159,7 @@ a:link{
     background-size: auto;
 }
 .all_wrap{
-    margin-left:150px;
+    margin-left:0px;
     position:relative;
     z-index:1;
     min-height:100vh;
@@ -179,55 +179,58 @@ a:link{
     padding-right: 5%;
     font-size:15px;
     font-weight:500;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    
 }
 .section{
     margin-bottom:150px;
     position:relative;
 }
 .section_title{
+    font-family: "Inter", sans-serif;
     position:relative;
     padding-bottom:2px;
-    font-size:35px;
-    letter-spacing:2px;
-    font-weight:500;
+    font-size:45px;
+    letter-spacing:0px;
+    font-weight:700;
     margin-bottom:10px;
-    margin-right: 60%;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-right: 20%;
+   
 }
 .section_title_EX{
+    font-family: "Inter", sans-serif;
+    font-weight:700;
     position:relative;
     padding-bottom:2px;
-    font-size:35px;
-    letter-spacing:2px;
-    font-weight:500;
+    font-size:45px;
+    letter-spacing:0px;
     margin-bottom:10px;
-    margin-right: 65%;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-right: 10px;
+    
 }
 .section_title:after{
     content:'';
     position:absolute;
     width:600px;
-    height:2px;
-    left:-60px;
-    bottom:0;
-    background:#fff;
+    height:1px;
+    left:0px;
+    bottom: 2px;
+    background:#727272;
 }
 .section_title_EX:after{
     content:'';
     position:absolute;
     width:600px;
-    height:2px;
-    left:-60px;
-    bottom:0;
-    background:#fff;
+    height:1px;
+    left:0px;
+    bottom: 2px;
+    background:#727272;
 }
 .about_txt{
-    font-size:20px;
-    max-width:540px;
-    background-color: #000000ce;
-    box-shadow: 0px 0px 2px 2px black;
+    font-family: "Inter", sans-serif;
+    font-weight:200;
+    font-size:17px;
+    max-width:640px;
+    
 }
 
 .proj_img{
@@ -260,8 +263,6 @@ a:link{
     margin-right:20px;
     max-width:300px;
     max-height:380px;
-    border-style: solid;
-    border-width: 1px;
     display: inline-block;
 }
 .hobby_img_horizontal{
@@ -269,8 +270,6 @@ a:link{
     margin-right:20px;
     width:598px;
     max-height:380px;
-    border-style: solid;
-    border-width: 1px;
     display: inline-block;   
 }
 .hobby_img_gray{
@@ -278,8 +277,6 @@ a:link{
     margin-right:20px;
     width:395px;
     max-height:380px;
-    border-style: solid;
-    border-width: 1px;
     display: inline-block;   
 }
 .hobby_vid{
@@ -287,34 +284,16 @@ a:link{
     margin-right:20px;
     max-width:540px;
     max-height:760px;
-    border-style: solid;
-    border-width: 1px;
     display: inline-block;
 }
-.kenta{
-    position: absolute; 
-    top: 120px; 
-    right: 300px; 
-    border-style:solid;
-    border-color: white; 
-    border-width: 1px;
-    border-radius: 50%;
-}
+
 @media screen and (max-width: 1350px){
-    .kenta{
-        position: relative;
-        top: auto;
-        right:auto;
-        left:300px;
-        bottom: 300px;       
-    }
+ 
     .hobby_img{
         margin-top:20px;
         margin-right:20px;
         max-width:240px;
         max-height:304px;
-        border-style: solid;
-        border-width: 1px;
         display: inline-block;
     }
     .hobby_img_horizontal{
@@ -322,8 +301,6 @@ a:link{
         margin-right:20px;
         width:484px;
         max-height:304px;
-        border-style: solid;
-        border-width: 1px;
         display: inline-block;   
     }
     .hobby_img_gray{
@@ -331,8 +308,6 @@ a:link{
         margin-right:20px;
         width:317px;
         max-height:304px;
-        border-style: solid;
-        border-width: 1px;
         display: inline-block;   
     }
 }
