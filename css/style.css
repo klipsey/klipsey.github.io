@@ -4,7 +4,7 @@ body{
     font-family: "DM Sans", sans-serif;
     -webkit-text-size-adjust:none;
     -webkit-font-smoothing:antialiased;
-    font-size:13px;
+    font-size: 1.2rem;
     line-height:1.35;
     margin:0;
     position:relative;
@@ -16,7 +16,6 @@ div{
     box-sizing:border-box;
 }
 h1,h2,h3,h4,h5,h6{
-    font-size:100%;
     font-weight:400;
     margin:0;
 }
@@ -169,8 +168,11 @@ a:link{
     max-width:1200px;
     width:100%;
     margin:0 auto;
-    padding:0 20px;
+    padding:0 0;
     position:relative;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .page_title{
     padding:50px 0;
@@ -194,7 +196,6 @@ a:link{
     font-weight:700;
     margin-bottom:10px;
     margin-right: 20%;
-   
 }
 .section_title_EX{
     font-family: "Inter", sans-serif;
@@ -287,7 +288,17 @@ a:link{
     display: inline-block;
 }
 
-@media screen and (max-width: 1350px){
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1480px){
  
     .hobby_img{
         margin-top:20px;
@@ -309,5 +320,12 @@ a:link{
         width:317px;
         max-height:304px;
         display: inline-block;   
+    }
+
+    .all_inner {
+        width:100%;
+        margin:0 auto;
+        padding:0 0 0 160px;
+        position:relative;
     }
 }
