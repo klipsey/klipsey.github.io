@@ -264,6 +264,8 @@ a:link{
     margin-right:20px;
     max-width:300px;
     max-height:380px;
+    border: #000;
+    border-radius: 5%;
     display: inline-block;
 }
 
@@ -342,3 +344,4 @@ a:link{
     }
 
 }
+
