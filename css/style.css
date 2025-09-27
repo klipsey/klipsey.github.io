@@ -246,12 +246,24 @@ a:link{
     box-shadow: 0 0 5px 1px white;
 }
 
-.seam_img {
+.banshee_img {
     margin-top: 20px;
     width: 500px;
     height: 540x;
     border: #000;
     border-radius: 5%;
+    display: inline-block;
+}
+
+    .banshee_img:hover {
+        box-shadow: 0 0 5px 1px white;
+    }
+
+.seam_img{
+    margin-top:20px;
+    margin-right:20px;
+    max-width:300px;
+    max-height:380px;
     display: inline-block;
 }
 
@@ -328,4 +340,5 @@ a:link{
         padding:0 0 0 160px;
         position:relative;
     }
+
 }
